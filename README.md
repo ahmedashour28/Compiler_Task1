@@ -12,10 +12,14 @@
 ## Another input example:
  
 ![image](https://user-images.githubusercontent.com/66278563/226953002-8638572e-f2ee-4e93-8146-b4f2781872ad.png)
+
+***
  
 ### Output result:
   
 ![image](https://user-images.githubusercontent.com/66278563/226953118-b09844b2-433b-41d7-8943-2b9268ee384b.png)
+
+***
   
 ### Its parse tree:
    
