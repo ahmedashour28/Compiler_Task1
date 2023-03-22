@@ -1,7 +1,7 @@
 # Compiler_Task1
 <h2>parse tree
  
-![image](https://user-images.githubusercontent.com/66218339/226931095-fcb43d9a-7cf7-492d-a222-0f6fc9f11dc3.png)
+![image](https://user-images.githubusercontent.com/66218339/226955708-489f9b19-4dc6-443b-8a41-a2dedc3a1916.png)
 
 <h2> another input example:
  
