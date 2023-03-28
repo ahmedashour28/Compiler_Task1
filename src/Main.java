@@ -5,7 +5,7 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        String inputFile = "Test.java";
+        String inputFile = "Example.java";
         FileInputStream inputStream = new FileInputStream(inputFile);
         ANTLRInputStream input = new ANTLRInputStream(inputStream);
         JavaLexer lexer = new JavaLexer(input);
@@ -16,9 +16,9 @@ public class Main {
         TokenStreamRewriter rewriter = new TokenStreamRewriter(tokens);
         walker.walk(new blockListener(rewriter), tree);
 
-        File output = new File("output.txt");
+        File output = new File("src/Example.java");
         output.createNewFile();
-        FileWriter w = new FileWriter("output.txt");
+        FileWriter w = new FileWriter("src/Example.java");
         w.write(rewriter.getText());
         w.close();
         //System.out.println(rewriter.getText());
